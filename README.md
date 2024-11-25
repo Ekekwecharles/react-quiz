@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Rest Countries Api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Quiz App
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project is a country information app that allows users to search and view details about different countries. It includes features like filtering, dynamic routing, darkmode and responsive design to enhance the user experience.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was built with the following technologies:
 
-### `npm run build`
+- **React**: A JavaScript library for building user interfaces.
+- **Context API**: Provides state sharing across components.
+- **Json Server**: A simple, lightweight tool for creating a RESTful API by serving a local JSON file as a database, often used for prototyping or development purposes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Node.js and npm/yarn installed on your machine.
+- Clone this repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Install the project dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Once you have installed the dependencies and started the development server, you can use the application as follows:
 
-## Learn More
+### Running the Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+2. Open your browser and navigate to:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   http://localhost:3000
+   ```
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome and appreciated! To contribute, follow these steps:
 
-### Analyzing the Bundle Size
+1. **Fork the repository**: Click the "Fork" button at the top of this repository to create a copy of it on your GitHub account.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. **Clone the repository**: Clone your forked repository to your local machine.
+   ```bash
+   git clone https://github.com/your-username/rest-countries-api.git
+   ```
+3. Create a new branch: Create a branch for your feature or bug fix.
 
-### Making a Progressive Web App
+   ```bash
+   git checkout -b feature-or-bugfix-name
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. Make changes: Add your changes or new features to the codebase.
 
-### Advanced Configuration
+5. Commit changes: Commit your changes with a meaningful commit message.
+   ```bash
+   git commit -m "Description of your changes"
+   ```
+6. Push changes: Push your changes to your forked repository.
+   ```bash
+   git push origin feature-or-bugfix-name
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Guidelines
 
-### Deployment
+- Follow the coding style used in the project.
+- Write clear, concise commit messages.
+- Ensure your code passes all tests and linting checks.
+- Keep your pull requests focused and avoid mixing unrelated changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for contributing to this project!
