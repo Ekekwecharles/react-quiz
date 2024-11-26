@@ -1,6 +1,6 @@
-# Rest Countries Api
+# React Quiz App
 
-React Quiz App
+React Quiz App: Starting out context Api and mock Api with json server
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ React Quiz App
 
 ## Overview
 
-This project is a country information app that allows users to search and view details about different countries. It includes features like filtering, dynamic routing, darkmode and responsive design to enhance the user experience.
+A well-designed Quiz App that goes through 15 React questions and changes styles based on whether the answer is correct or wrong. The highest score is persisted between quizzes.
 
 ## Technologies Used
 
